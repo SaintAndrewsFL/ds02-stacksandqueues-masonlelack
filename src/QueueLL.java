@@ -1,5 +1,34 @@
+import java.util.ArrayList;
+import java.util.LinkedList;
 
-public class QueueLL {
+public class QueueLL<E> {
+    private LinkedList<E> linkedList = new LinkedList<E>();
+
+    public E enqueue(E item){
+        linkedList.add(item);
+        return item;
+    }
+    public E dequeue(){
+        return linkedList.remove(0);
+    }
+
+    public E peek(){
+        return linkedList.get(0);
+    }
+
+    public void display(){
+        for(int i = 0; i < linkedList.size(); i++){
+            System.out.println(linkedList.get(i));
+        }
+    }
+
+    public int size(){
+        return linkedList.size();
+    }
+
+    public boolean isEmpty(){
+        return linkedList.isEmpty();
+    }
 }
 
 
