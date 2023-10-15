@@ -28,6 +28,7 @@ public class QueueArray<E> {
     public boolean isEmpty(){
         return array.isEmpty();
     }
+    //final product
 }
 
 

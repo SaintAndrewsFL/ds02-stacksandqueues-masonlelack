@@ -29,6 +29,7 @@ public class StackArray<E> {
     public boolean isEmpty(){
         return array.isEmpty();
     }
+    //final product
 }
 
 

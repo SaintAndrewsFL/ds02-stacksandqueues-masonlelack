@@ -29,6 +29,7 @@ public class QueueLL<E> {
     public boolean isEmpty(){
         return linkedList.isEmpty();
     }
+    //final product
 }
 
 

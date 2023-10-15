@@ -30,6 +30,7 @@ public class StackLL<E> {
         return linkedList.isEmpty();
     }
 
+    //final product
 }
 
 
